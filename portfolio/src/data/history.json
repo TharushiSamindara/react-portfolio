@@ -1,0 +1,35 @@
+[
+  {
+    "role": "Associate Software Engineer",
+    "organisation": "Avonet Technologies",
+    "startDate": "March, 2025",
+    "endDate": "Present",
+    "experiences": [
+    ["Project", "Customer Relationship Management System"],
+    ["Technology", "Next.js, Nest.js, TypeScript, AWS Resources"],
+    ["My Responsibility", [
+      "Engineered and implemented a user-friendly contact enrollment feature for non-members, supporting seamless training and event registration through the website.",
+      "Executed workflows for enrollment and email notifications.",
+      "Built member enrollment functionality, allowing registered members to sign up for events without payment.",
+      "Designed and enforced create, read, update, delete operations for contact details, enabling administrators to efficiently manage user records."
+    ]]],
+    "imageSrc": "history/avonetLogo.png"
+  },
+  {
+    "role": "Intern Software Engineer",
+    "organisation": "Avonet Technologies",
+    "startDate": "Sep, 2024",
+    "endDate": "March, 2025",
+    "experiences": [
+      ["Project", "Train Ticket Booking System"],
+      ["Technology", "Next.js, Nest.js, TypeScript, AWS Resources"],
+      ["My Responsibility", [
+        "Implemented save search functionality, enabling users to store search criteria and generate reusable URLs for quick access.",
+        "Applied features to check trip availability and vacancies during the search and booking process for both agents and travelers.",
+        "Built workflows to validate seat availability once a trip was selected, ensuring accurate real-time booking.",
+        "Worked on commission calculations for agents, including booking fees and refund fee management.",
+        "Enforced refund processing for specific tickets, ensuring secure and seamless handling of cancellations."
+      ]]],
+      "imageSrc": "history/avonetLogo.png"
+  }
+]
