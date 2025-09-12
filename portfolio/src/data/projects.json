@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Spend Management System - SpendSmart",
+    "imageSrc": "projects/spendsmart.png",
+    "description": "A spend management system designed to track and manage financial expenses effectively. Built with React, Next.js, Nest.js, and MongoDB, it delivers optimized frontend performance and reliable backend support for efficient financial tracking.",
+    "skills": ["React", "Next.js", "Nest.js", "TypeScript", "MongoDB"],
+    "source": "https://github.com/TharushiSamindara/Personal_Expense_Tracking_Web_App"
+  },
+  {
+    "title": "Mood Tracking System - MoodDiary",
+    "imageSrc": "projects/mooddiary.png",
+    "description": "A responsive web application enabling users to log, track, and visualize their moods over time. Developed with React, Spring Boot, and MySQL, it emphasizes user engagement with smooth navigation, intuitive interfaces, and trend visualization.",
+    "skills": ["React", "Spring Boot", "MySQL"],
+    "source": "https://github.com/TharushiSamindara/MoodDiary"
+  },
+  {
+    "title": "Customer Management System - ClientKeeper",
+    "imageSrc": "projects/clientkeeper.png",
+    "description": "A mobile application built in Kotlin for managing client and personal information. Designed with clean architecture and user-centric principles, it streamlines data entry, editing, and organization while maintaining modularity and scalability.",
+    "skills": ["Kotlin", "Android"],
+    "source": "https://github.com/TharushiSamindara/ClientKeeper"
+  },
+  {
+    "title": "Inventory Management System - StockGuard",
+    "imageSrc": "projects/stockguard.png",
+    "description": "A desktop-based inventory management system supporting real-time tracking, supplier management, and reporting. Built with C# and MySQL, it provides efficient item management with functionalities for adding, updating, and generating reports.",
+    "skills": ["C#", "MySQL"],
+    "source": "https://github.com/TharushiSamindara/StockGuard"
+  }
+]
