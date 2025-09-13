@@ -1,7 +1,19 @@
 import React from "react";
 
 import styles from "./ProjectCard.module.css";
-import { getImageUrl } from "../../utils";
+import spendsmart from "../../../assets/projects/spendsmart.png"
+import mooddiary from "../../../assets/projects/mooddiary.png"
+import stockguard from "../../../assets/projects/stockguard.png"
+import clientkeeper from "../../../assets/projects/clientkeeper.png"
+
+const projectIcons = [spendsmart, clientkeeper,mooddiary,stockguard];
+export const getImageIcon = (path) => {
+    for (let i = 0; i < projectIcons.length; i++) {
+        if(projectIcons[i] === "/assets/"+path) {
+            return projectIcons[i]
+        }
+    }
+};
 
 export const ProjectCard = ({
                                 project: { title, imageSrc, description, skills, demo, source },
@@ -10,7 +22,7 @@ export const ProjectCard = ({
         <div className={styles.container}>
             <div className={styles.imageContainer}>
                 <img
-                    src={getImageUrl(imageSrc)}
+                    src={getImageIcon(imageSrc)}
                     alt={`Image of ${title}`}
                     className={styles.image}
                 />
