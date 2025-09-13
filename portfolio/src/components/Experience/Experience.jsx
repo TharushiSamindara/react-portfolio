@@ -11,7 +11,6 @@ const images = import.meta.glob("../../../assets/skills/*", {
 });
 
 export const getImageUrl = (fileName) => {
-    // Find the first key that ends with the fileName
     const key = Object.keys(images).find((k) => k.endsWith(fileName));
     return key ? images[key] : "";
 };

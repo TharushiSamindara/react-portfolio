@@ -1,18 +1,15 @@
 import React from "react";
 
 import styles from "./ProjectCard.module.css";
-import spendsmart from "../../../assets/projects/spendsmart.png"
-import mooddiary from "../../../assets/projects/mooddiary.png"
-import stockguard from "../../../assets/projects/stockguard.png"
-import clientkeeper from "../../../assets/projects/clientkeeper.png"
 
-const projectIcons = [spendsmart, clientkeeper,mooddiary,stockguard];
-export const getImageIcon = (path) => {
-    for (let i = 0; i < projectIcons.length; i++) {
-        if(projectIcons[i] === "/assets/"+path) {
-            return projectIcons[i]
-        }
-    }
+const images = import.meta.glob("../../../assets/projects/*", {
+    eager: true,
+    import: "default",
+});
+
+export const getImageIcon = (fileName) => {
+    const key = Object.keys(images).find((k) => k.endsWith(fileName));
+    return key ? images[key] : "";
 };
 
 export const ProjectCard = ({
